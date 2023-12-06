@@ -4,9 +4,9 @@ const Random = () =>{
     const {gif, fetchImg} = Common()
     return (
     <div className="container">
-        <h1>Random Image</h1>
+        
         <img src={gif} alt="Random Img" />
-        <button onClick={()=>fetchImg()}>Change</button>
+        <button onClick={()=>fetchImg()}></button>
     </div>
 )
 }
