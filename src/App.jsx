@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-    <h1>React Gif Application</h1>
+    
     <div className="main-container">
       <Random/>
       <Tag/>
