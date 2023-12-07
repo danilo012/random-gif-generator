@@ -8,8 +8,8 @@ function App() {
     <>
     
     <div className="main-container">
-      <Random/>
       
+      <Tag/>
     </div>
     </>
   )
