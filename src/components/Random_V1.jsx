@@ -5,7 +5,7 @@ const Random = () =>{
     return (
     <div className="container">
         
-        <img src={gif} alt="Random Img" />
+        <img src={gif} alt="Random videos" />
         <button onClick={()=>fetchImg()}></button>
     </div>
 )
