@@ -6,7 +6,7 @@ const Tag = () =>{
     return (
     <div className="container">
        
-        <img src={gif} alt="Random Img" />
+        <img src={gif} alt="Random videos" />
         <input type="text"  value={tag} onChange={(e)=>setTag(e.target.value)}/>
         <button onClick={()=>fetchImg(tag)}></button>
     </div>
